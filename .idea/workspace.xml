@@ -4,7 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="20e22c14-48d0-4005-bd0e-765c8cdb6c59" name="Changes" comment="" />
+    <list default="true" id="20e22c14-48d0-4005-bd0e-765c8cdb6c59" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/contact-link.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact-link.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-29-welcome-to-jekyll.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-29-welcome-to-jekyll.markdown" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/1-tools/_ionicons.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/1-tools/_ionicons.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/05/30/welcome-to-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/30/welcome-to-jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/06/25/start-the-day-with-the-right-habit/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/06/25/start-the-day-with-the-right-habit/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/07/05/moving-to-a-new-place/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/07/05/moving-to-a-new-place/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/07/17/time-to-givegifts-to-everyone/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/07/17/time-to-givegifts-to-everyone/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/07/19/why-a-brand-is-often-important/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/07/19/why-a-brand-is-often-important/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/07/24/find-a-connection-with-the-reader/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/07/24/find-a-connection-with-the-reader/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/images/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/_site/images/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/styleguide/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/styleguide/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/home/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/home/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/jekyll/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/life/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/life/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/resources/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/resources/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/style/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/style/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -16,9 +41,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2XqBzYdwwvl58CntqOfd3IFqToQ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -30,7 +55,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/buenhjcho/WebDevelop/03.portfolio/JunBrooo.github.io",
+    "last_opened_file_path": "/Users/buenhjcho/WebDevelop/03.portfolio/JunBrooo.github.io/_includes",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -39,6 +64,12 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/_includes" />
+      <recent name="$PROJECT_DIR$/images" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -48,6 +79,9 @@
       <option name="presentableId" value="Default" />
       <updated>1699346993115</updated>
       <workItem from="1699346994497" duration="667000" />
+      <workItem from="1699411252268" duration="4124000" />
+      <workItem from="1699423683829" duration="5530000" />
+      <workItem from="1700027489222" duration="5862000" />
     </task>
     <servers />
   </component>
