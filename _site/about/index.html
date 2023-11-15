@@ -9,8 +9,8 @@
   <title>About</title>
   <meta name='description' content=''>
 
-  <link rel="canonical" href="http://localhost:4000/zolan/about/">
-  <link rel="alternate" type="application/rss+xml" title="" href="/zolan/feed.xml">
+  <link rel="canonical" href="http://localhost:4000/about/">
+  <link rel="alternate" type="application/rss+xml" title="" href="/feed.xml">
 
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
@@ -25,18 +25,18 @@
 
 <body>
 
-  
 
-  <div class="container">
+
+<div class="container">
   <div class="row">
     <div class="col col-12">
       <!-- begin header -->
       <header class="header">
 
         <div class="logo">
-          <a class="logo__link" href="/zolan/">
+          <a class="logo__link" href="/">
           
-<!--            <img class="logo__image" src="/zolan/images/logo.svg" alt="JunBrooo">-->
+<!--            <img class="logo__image" src="/images/logo.svg" alt="JunBrooo">-->
             JunBrooo
           
           </a>
@@ -53,7 +53,7 @@
 
             <ul class="nav__list list-reset">
               <li class="nav__item">
-                <a href="/zolan/" class="nav__link">Home</a>
+                <a href="/" class="nav__link">Home</a>
               </li>
               
                 
@@ -61,7 +61,8 @@
                 
               
               <li class="nav__item">
-                <a href="/zolan/about/" class="nav__link">About</a>
+                <!-- About _pages 디렉토리에 마크다운 추가하면 제목 자동생성 -->
+                <a href="/about/" class="nav__link">About</a>
               </li>
               
                 
@@ -71,14 +72,6 @@
                 
               
                 
-              
-                
-              
-                
-              
-              <li class="nav__item">
-                <a href="/zolan/styleguide/" class="nav__link">Style Guide</a>
-              </li>
               
                 
               
@@ -127,8 +120,8 @@
   </div>
 </div>
 
-  <!-- begin content -->
-  <main class="content" aria-label="Content">
+<!-- begin content -->
+<main class="content" aria-label="Content">
     <div class="container">
 	<div class="page-title-box">
 		<div class="row">
@@ -140,7 +133,7 @@
 
 	
 	<div class="page__head">
-		<div class="page-image" style="background-image: url(/zolan/images/01.jpg)"></div>
+		<div class="page-image" style="background-image: url(/images/01.jpg)"></div>
 	</div>
 	
 </div>
@@ -176,12 +169,12 @@ Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicl
 		<!-- end page -->
 	</div>
 </div>
-  </main>
-  <!-- end content -->
+</main>
+<!-- end content -->
 
-  <div class="top ion ion-ios-arrow-up" title="Top"></div>
+<div class="top ion ion-ios-arrow-up" title="Top"></div>
 
-  <!-- begin search -->
+<!-- begin search -->
 <div class="search">
   <div class="container">
     <div class="row">
@@ -202,7 +195,7 @@ Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicl
 </div>
 <!-- end search -->
 
-  <!-- begin footer -->
+<!-- begin footer -->
 <footer class="footer">
   <div class="container">
 
@@ -214,7 +207,9 @@ Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicl
 
     <div class="contact">
   <ul class="contact__list list-reset">
-     
+    
+      <li><a href="https://github.com/JunBrooo"><i class="ion ion-logo-github"></i></a></li>
+    
     
       <li><a href="https://instagram.com/"><i class="ion ion-logo-google"></i></a></li>
     
@@ -236,22 +231,22 @@ Hot chicken shoreditch tousled listicle, actually meggings vape. Pok pok listicl
 <!-- end footer -->
 
 
-  <script src="/zolan/js/vendors/jquery-3.3.1.min.js"></script>
-<script src="/zolan/js/vendors/simple-jekyll-search.min.js"></script>
+<script src="/js/vendors/jquery-3.3.1.min.js"></script>
+<script src="/js/vendors/simple-jekyll-search.min.js"></script>
 <script>
   SimpleJekyllSearch({
     searchInput: document.getElementById("js-search-input"),
     resultsContainer: document.getElementById("js-results-container"),
-    json: "/zolan/search.json",
+    json: "/search.json",
     searchResultTemplate: '<li class="search-results__item"><a class="search-results__link" href="{url}">{title}</a><br> <span class="search-results__date">{date}</span></li>',
     noResultsText: '<li class="no-results">No results found</li>'
   });
 </script>
-<script src="/zolan/js/vendors/transition.js"></script>
-<script src="/zolan/js/vendors/zoom.min.js"></script>
-<script src="/zolan/js/vendors/instafeed.min.js"></script>
-<script src="/zolan/js/vendors/jquery.fitvids.js"></script>
-<script src="/zolan/js/common.js"></script>
+<script src="/js/vendors/transition.js"></script>
+<script src="/js/vendors/zoom.min.js"></script>
+<script src="/js/vendors/instafeed.min.js"></script>
+<script src="/js/vendors/jquery.fitvids.js"></script>
+<script src="/js/common.js"></script>
 </body>
 
 </html>
