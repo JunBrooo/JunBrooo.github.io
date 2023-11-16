@@ -5,31 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20e22c14-48d0-4005-bd0e-765c8cdb6c59" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/_posts/2023-09-27-noname.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_includes/article-content.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/article-content.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-05-29-welcome-to-jekyll.markdown" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2018-05-29-welcome-to-jekyll.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-06-25-start-the-day-with-the-right-habit.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-05-moving-to-a-new-place.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-17-time-to-givegifts-to-everyone.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-19-why-a-brand-is-often-important.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2018-07-23-find-a-connection-with-the-reader.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/05/30/welcome-to-jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2018/05/30/welcome-to-jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/06/25/start-the-day-with-the-right-habit/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/07/05/moving-to-a-new-place/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/07/17/time-to-givegifts-to-everyone/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/07/19/why-a-brand-is-often-important/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2018/07/24/find-a-connection-with-the-reader/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/disqus-comments.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/tag_page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/tag_page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2018-05-29-welcome-to-jekyll.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-10-01-mnm.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/noname.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_sass/4-layouts/_post.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/4-layouts/_post.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/2018/05/30/welcome-to-jekyll/index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/home/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/jekyll/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/jekyll/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/life/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/resources/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/style/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/tag/jekyll/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +48,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/buenhjcho/WebDevelop/03.portfolio/JunBrooo.github.io/_includes",
+    "last_opened_file_path": "/Users/buenhjcho/WebDevelop/03.portfolio/JunBrooo.github.io/images",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -68,8 +60,8 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/_includes" />
       <recent name="$PROJECT_DIR$/images" />
+      <recent name="$PROJECT_DIR$/_includes" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -83,7 +75,7 @@
       <workItem from="1699346994497" duration="667000" />
       <workItem from="1699411252268" duration="4124000" />
       <workItem from="1699423683829" duration="5530000" />
-      <workItem from="1700027489222" duration="23900000" />
+      <workItem from="1700027489222" duration="37650000" />
     </task>
     <servers />
   </component>
