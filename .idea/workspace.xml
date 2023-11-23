@@ -5,26 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="20e22c14-48d0-4005-bd0e-765c8cdb6c59" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-09-27-noname.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-08-01-noname.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/2023-10-01-mnm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-10-01-mnm.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sass/1-tools/_grid.scss" beforeDir="false" afterPath="$PROJECT_DIR$/_sass/1-tools/_grid.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2023/09/27/noname/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/2023/10/01/mnm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2023/10/01/mnm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/_site/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/java/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/springboot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/springboot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +70,7 @@
       <workItem from="1700718289834" duration="3300000" />
       <workItem from="1700721602454" duration="9369000" />
       <workItem from="1700741785628" duration="2686000" />
-      <workItem from="1700753948650" duration="287000" />
+      <workItem from="1700753948650" duration="813000" />
     </task>
     <servers />
   </component>
