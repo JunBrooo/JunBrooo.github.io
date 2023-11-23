@@ -273,213 +273,54 @@ MBTI만 선택하면 해당정보에 맞는 영화를 추천</p>
 <h3 id="시스템-주요코드">시스템 주요코드</h3>
 <p><br /></p>
 
-<h4 id="email인증">Email인증</h4>
-<h4 id="--java-email-api">- Java Email API</h4>
+<h4 id="-회원관련">😄 회원관련</h4>
+<h4 id="--email인증-java-email-api">- Email인증 (Java Email API)</h4>
 
-<p><img src="https://i.imgur.com/qGQVBR3.png" alt="메일인증" style="width:800px;" />
-<img src="https://i.imgur.com/KylnGmH.png" alt="메일인증" style="width:400px;" /></p>
+<p><img src="https://i.imgur.com/YdJQmA5.png" alt="메일인증01" style="width:800px;" /></p>
 
-<p><img src="https://i.imgur.com/bFAw7p0.png" alt="메일인증" style="width:800px;" /></p>
+<p>회원가입은 email, pw, nickname, MBTI를 입력 받으며, 가입시 이메일 인증을 진행</p>
 
-<p>클라이언트와 서버간의 실시간 양방향 통신을 위해서 
-WebSocket을 사용</p>
+<p><img src="https://i.imgur.com/qGQVBR3.png" alt="메일인증02" style="width:800px;" />
+<img src="https://i.imgur.com/KylnGmH.png" alt="메일인증03" style="width:400px;" /></p>
 
-<p>HTTP, Ajax 또한 클라이언트와 서버의 소통은 가능하나
-클라이언트 쪽의 요청이 없으면 응답을 받을 수 없는 구조로
-실시간 데이터를 주고 받아야 하는 채팅, 경매에 있어 부적합함</p>
+<p>보내진 인증번호와 입력된 내용의 적합성 여부를 확인하기 위해 유효성검사 진행하여 상태값을 표시</p>
 
-<p>WebSocket은 클라이언트와 서버(브라우저와 서버)를 연결하고
-실시간으로 ‘양방향‘통신이 가능하도록하는 해주는 기능으로
-최초의 요청으로 연결이 되면 별도의 요청처리 없이 소통가능
-<br /></p>
+<p><img src="https://i.imgur.com/bFAw7p0.png" alt="메일인증04" style="width:800px;" /></p>
 
-<h4 id="--stomp">- STOMP</h4>
+<figure class="highlight"><pre><code class="language-js" data-lang="js"><span class="k">import</span> <span class="nx">org</span><span class="p">.</span><span class="nx">springframework</span><span class="p">.</span><span class="nx">mail</span><span class="p">.</span><span class="nx">javamail</span><span class="p">.</span><span class="nx">JavaMailSenderImpl</span><span class="p">;</span>
+<span class="k">import</span> <span class="nx">org</span><span class="p">.</span><span class="nx">springframework</span><span class="p">.</span><span class="nx">mail</span><span class="p">.</span><span class="nx">javamail</span><span class="p">.</span><span class="nx">MimeMessageHelper</span><span class="p">;</span></code></pre></figure>
 
-<p><img src="https://i.imgur.com/YtQVOpU.png" width="800px" />
-<br />
-WebSocket 기반으로 각 Connection(연결)마다 
-WebSocketHandler를 구현해야 하지만</p>
-
-<p>STOMP를 사용하면 @Controller 된 객체를 이용해
-보다 효율적으로 관리할 수 있다.</p>
-
-<p>STOMP를 사용하면 내장브로커를 활용해 메시지 전송 형식 및 파싱하는 코드를 구현할 필요 없어져 코드가 간결해지
-<br />
-<br /></p>
-
-<h4 id="채팅">채팅</h4>
-
-<h4 id="채팅-화면-websocket--stomp">채팅 화면 (WebSocket + STOMP)</h4>
-
-<p><img src="https://i.imgur.com/Fav51Bp.gif" width="800px" />
-<br />
-상품 경매할 때 해당 상품페이지에 들어와 있는 사람들간 자유로운 양방향 소통기능 구현</p>
-
-<p><br /><br /></p>
-
-<h4 id="-경매">💰 경매</h4>
-
-<h4 id="경매-화면">경매 화면</h4>
-
-<p><img src="https://i.imgur.com/bYMcza7.gif" width="800px" /></p>
-
-<p>WebSocket 연결이 열리면 onopen이 실행된다<br />
-먼저, 해당 productId에 대한 세션을 auctions 맵에 저장 후<br />
-사용자의 ID를 가져와서 인증 상태를 확인하고 메시지를 해당 세션으로 전송한다
-<br />
-<br />
-<br /></p>
-
-<p><img src="https://imgur.com/udtJdlw.png" width="800px" />
-<br /></p>
-
-<p>클라이언트로부터 입력값과 상품 아이디를 전달받은 후<br />
-값을 비교하여 메시지를 전달하거나 입찰가를 저장한다
-<br />
-<br /></p>
-
-<p><img src="https://imgur.com/iEyP5TH.png" width="800px" />
-<br />
-<br />
-<br /></p>
-
-<p><img src="https://imgur.com/iTu1ow7.png" width="800px" />
-<br /></p>
-
-<p><img src="https://imgur.com/VBAvkLC.png" width="800px" />
-<br />
-<br />
-<br /></p>
-
-<h4 id="갤러리">갤러리</h4>
-
-<h4 id="갤러리-화면--댓글">갤러리 화면 (+ 댓글)</h4>
-
-<p><img src="https://i.imgur.com/L2SaNPQ.gif" width="800px" />
-<br />
-매번 이미지를 불러 올 때 DB에 저장되어있는(회원이 첨부한 이미지) 이미지를 랜덤으로 가져와서 화면에 정렬</p>
+<p>Random() 사용하여 인증시 사용될 번호 무작위 생성하여 변수에 담고
+JavaMailSenderImpl, MimeMessageHelper 상속받아서 인증메일 송시 시 보낼 주소, 메일의 내용,제목 등을 설정</p>
 
 <p><br /></p>
 
-<hr />
-<p><br /></p>
+<h4 id="--mypage">- Mypage</h4>
 
-<h4 id="-안드로이드">🤖 안드로이드</h4>
+<p><img src="https://i.imgur.com/wDDh6Ur.png" alt="mypage02" style="width:800px;" />
+<img src="https://i.imgur.com/lCQiWWI.png" alt="mypage01" style="width:800px;" /></p>
 
-<p>안드로이드 스튜디오 설정
-<br /></p>
+<h4 id="-movie">🎥 Movie</h4>
+<h4 id="--리스트">- 리스트</h4>
 
-<p><img src="https://i.imgur.com/2NbViUg.png" width="140px" style="display:inline-block;" />
-<img src="https://i.imgur.com/Qkrd8nX.png" width="140px" style="display:inline-block;" />
-<img src="https://i.imgur.com/xK1vOej.png" width="140px" style="display:inline-block;" />
-<img src="https://i.imgur.com/SQyljHk.png" width="140px" style="display:inline-block;" />
-<img src="https://i.imgur.com/XDFwxqa.png" width="140px" style="display:inline-block;" /></p>
+<p><img src="https://i.imgur.com/GLZ9m1P.png" alt="영화리스트01" style="width:800px;" />
+<img src="https://i.imgur.com/GZkWMgL.png" alt="영화리스트02" style="width:800px;" /></p>
 
-<p><img src="https://i.imgur.com/Wh6VuMA.png" width="800px" /></p>
+<h4 id="--상세페이지">- 상세페이지</h4>
 
-<p><br />
-<br /></p>
+<p><img src="https://i.imgur.com/IWrdSkc.png" alt="영화상페01" style="width:800px;" />
+<img src="https://i.imgur.com/qsdTatA.png" alt="영화상폐02" style="width:800px;" /></p>
 
-<hr />
+<h4 id="-review">💬 Review</h4>
+<h4 id="--리스트-1">- 리스트</h4>
 
-<h4 id="-결제-기능-구현">💵 결제 기능 구현</h4>
+<p><img src="https://i.imgur.com/1T7DIJw.png" alt="리뷰리스트01" style="width:800px;" />
+<img src="https://i.imgur.com/cyIbdpV.png" alt="리뷰리스트02" style="width:800px;" /></p>
 
-<ol>
-  <li>경매 입찰 상태 확인
-<br /></li>
-</ol>
+<h4 id="--상세페이지-좋아요">- 상세페이지(+ 좋아요)</h4>
 
-<ul>
-  <li>자신이 입찰한 상품들을 전체 목록에서 확인 가능
-<br />
-<br /></li>
-</ul>
-
-<p><img src="https://i.imgur.com/nfIV7WJ.png" width="800px" />
-<br />
-<br /></p>
-
-<ol>
-  <li>최종 낙찰품 구매 가능
-<br /></li>
-</ol>
-
-<ul>
-  <li>경매 종료 시, 자신이 최고 입찰가인 경우 구매 가능
-<br />
-<br /></li>
-</ul>
-
-<p><img src="https://i.imgur.com/BabthED.gif" width="800px" />
-<br />
-<br /></p>
-
-<p><img src="https://i.imgur.com/wmctpyu.png" width="800px" />
-<br />
-<br /></p>
-
-<ol>
-  <li>주문서 화면
-<br /></li>
-</ol>
-
-<ul>
-  <li>고객 기본 정보, 토스 페이먼츠 API 활용하여 주문서 화면 구성
-<br />
-<br /></li>
-</ul>
-
-<p><img src="https://i.imgur.com/cM2ITBz.gif" width="800px" />
-<br /></p>
-
-<ol>
-  <li>결제 완료 &amp; 구매 내역
-<br /></li>
-</ol>
-
-<ul>
-  <li>결제 정보 인증 과정을 거쳐 최종적으로 구매 내역 화면 이동
-<br />
-<br /></li>
-</ul>
-
-<ol>
-  <li>경매 입찰 상태 확인</li>
-</ol>
-
-<ul>
-  <li>자신이 입찰한 상품들을 전체 목록에서 확인 가능
-<img src="https://i.imgur.com/nfIV7WJ.png" width="800px" /></li>
-</ul>
-
-<ol>
-  <li>최종 낙찰품 구매 가능</li>
-</ol>
-
-<ul>
-  <li>경매 종료 시, 자신이 최고 입찰가인 경우 구매 가능
-<img src="https://i.imgur.com/BabthED.gif" width="800px" />
-<img src="https://i.imgur.com/wmctpyu.png" width="800px" /></li>
-</ul>
-
-<ol>
-  <li>주문서 화면</li>
-</ol>
-
-<ul>
-  <li>고객 기본 정보, 토스 페이먼츠 API 활용하여 주문서 화면 구성
-<img src="https://i.imgur.com/cM2ITBz.gif" width="800px" /></li>
-</ul>
-
-<ol>
-  <li>결제 완료 &amp; 구매 내역</li>
-</ol>
-
-<ul>
-  <li>결제 정보 인증 과정을 거쳐 최종적으로 구매 내역 화면 이동</li>
-</ul>
-
-<p><img src="https://i.imgur.com/oF2g0ck.gif" width="800px" /></p>
+<p><img src="https://i.imgur.com/7cmvHg1.png" alt="메일인증" style="width:800px;" />
+<img src="https://i.imgur.com/1tR6WMA.png" alt="메일인증" style="width:800px;" /></p>
 
 <style>
   table {
@@ -510,7 +351,6 @@ WebSocketHandler를 구현해야 하지만</p>
   <div class="post__navigation">
     
     <div class="prev">
-      <a class="post__nav__image" href="/2023/09/27/noname/" style="background-image: url(/images/noname.gif)"></a>
       <h2 class="post__nav__title">
         <i class="ion ion-md-arrow-back"></i>
         <a href="/2023/09/27/noname/">Noname</a>

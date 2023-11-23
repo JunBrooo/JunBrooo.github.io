@@ -6,36 +6,18 @@
   <component name="ChangeListManager">
     <list default="true" id="20e22c14-48d0-4005-bd0e-765c8cdb6c59" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/settings.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/settings.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/hero.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/hero.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/page.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/page.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_pages/about.md" beforeDir="false" afterPath="$PROJECT_DIR$/_pages/about.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2023-09-27-noname.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-09-27-noname.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/2023-10-01-mnm.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/2023-10-01-mnm.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2023/09/27/noname/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2023/09/27/noname/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/2023/10/01/mnm/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/2023/10/01/mnm/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/images/10.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/404.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/404.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/about/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/about/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/search.json" beforeDir="false" afterPath="$PROJECT_DIR$/_site/search.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/sitemap.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/sitemap.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/java/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/java/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/javascript/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/javascript/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_site/tag/springboot/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/tag/springboot/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/01.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/02.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/03.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/04.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/05.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/06.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/08.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/09.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/10.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,22 +41,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/buenhjcho/WebDevelop/03.portfolio/JunBrooo.github.io/images",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.grazie",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/buenhjcho/WebDevelop/03.portfolio/JunBrooo.github.io/images&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.grazie&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images" />
@@ -93,7 +75,9 @@
       <workItem from="1699346994497" duration="667000" />
       <workItem from="1699411252268" duration="4124000" />
       <workItem from="1699423683829" duration="5530000" />
-      <workItem from="1700027489222" duration="55456000" />
+      <workItem from="1700027489222" duration="75667000" />
+      <workItem from="1700474908193" duration="22714000" />
+      <workItem from="1700718289834" duration="9000" />
     </task>
     <servers />
   </component>

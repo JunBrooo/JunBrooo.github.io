@@ -285,7 +285,6 @@ NONAME은 예술 시장을 혁신하고 다양한 아티스트들이 참여할 �
 <p><br /></p>
 
 <hr />
-<p><br /></p>
 
 <h3 id="시스템-주요코드">시스템 주요코드</h3>
 <p><br /></p>
@@ -321,7 +320,7 @@ WebSocketHandler를 구현해야 하지만</p>
 <br />
 <br /></p>
 
-<h4 id="채팅">채팅</h4>
+<h4 id="-채팅">💬 채팅</h4>
 
 <h4 id="채팅-화면-websocket--stomp">채팅 화면 (WebSocket + STOMP)</h4>
 
@@ -329,18 +328,15 @@ WebSocketHandler를 구현해야 하지만</p>
 <br />
 상품 경매할 때 해당 상품페이지에 들어와 있는 사람들간 자유로운 양방향 소통기능 구현</p>
 
-<p><br /><br /></p>
+<p><br /></p>
 
 <h4 id="-경매">💰 경매</h4>
-
-<h4 id="경매-화면">경매 화면</h4>
 
 <p><img src="https://i.imgur.com/bYMcza7.gif" width="800px" /></p>
 
 <p>WebSocket 연결이 열리면 onopen이 실행된다<br />
 먼저, 해당 productId에 대한 세션을 auctions 맵에 저장 후<br />
 사용자의 ID를 가져와서 인증 상태를 확인하고 메시지를 해당 세션으로 전송한다
-<br />
 <br />
 <br /></p>
 
@@ -359,21 +355,105 @@ WebSocketHandler를 구현해야 하지만</p>
 
 <p><img src="https://imgur.com/iEyP5TH.png" width="800px" />
 <br />
-<br />
 <br /></p>
 
-<h4 id="갤러리">갤러리</h4>
-
-<h4 id="갤러리-화면--댓글">갤러리 화면 (+ 댓글)</h4>
+<h4 id="-갤러리--댓글">🏞 갤러리 (+ 댓글)</h4>
 
 <p><img src="https://i.imgur.com/L2SaNPQ.gif" width="800px" />
 <br />
 매번 이미지를 불러 올 때 DB에 저장되어있는(회원이 첨부한 이미지) 이미지를 랜덤으로 가져와서 화면에 정렬</p>
 
-<p><br /></p>
+<p><br />
+<br /></p>
+
+<h4 id="-결제-기능-구현">💵 결제 기능 구현</h4>
+
+<ol>
+  <li>경매 입찰 상태 확인
+    <ul>
+      <li>자신이 입찰한 상품들을 전체 목록에서 확인 가능
+<br />
+<br /></li>
+    </ul>
+
+    <p><img src="https://i.imgur.com/nfIV7WJ.png" width="800px" />
+ <br />
+ <br /></p>
+  </li>
+  <li>최종 낙찰품 구매 가능
+    <ul>
+      <li>경매 종료 시, 자신이 최고 입찰가인 경우 구매 가능
+<br />
+<br /></li>
+    </ul>
+
+    <p><img src="https://i.imgur.com/BabthED.gif" width="800px" />
+ <br />
+ <br /></p>
+
+    <p><img src="https://i.imgur.com/wmctpyu.png" width="800px" />
+ <br />
+ <br /></p>
+  </li>
+  <li>주문서 화면
+    <ul>
+      <li>고객 기본 정보, 토스 페이먼츠 API 활용하여 주문서 화면 구성
+<br />
+<br /></li>
+    </ul>
+
+    <p><img src="https://i.imgur.com/cM2ITBz.gif" width="800px" />
+ <br /></p>
+  </li>
+  <li>결제 완료 &amp; 구매 내역
+    <ul>
+      <li>
+        <p>결제 정보 인증 과정을 거쳐 최종적으로 구매 내역 화면 이동
+<br />
+<br /></p>
+
+        <ol>
+          <li>
+            <p>경매 입찰 상태 확인</p>
+
+            <ul>
+              <li>자신이 입찰한 상품들을 전체 목록에서 확인 가능
+<img src="https://i.imgur.com/nfIV7WJ.png" width="800px" /></li>
+            </ul>
+          </li>
+          <li>
+            <p>최종 낙찰품 구매 가능</p>
+
+            <ul>
+              <li>경매 종료 시, 자신이 최고 입찰가인 경우 구매 가능
+<img src="https://i.imgur.com/BabthED.gif" width="800px" />
+<img src="https://i.imgur.com/wmctpyu.png" width="800px" /></li>
+            </ul>
+          </li>
+          <li>
+            <p>주문서 화면</p>
+
+            <ul>
+              <li>고객 기본 정보, 토스 페이먼츠 API 활용하여 주문서 화면 구성
+<img src="https://i.imgur.com/cM2ITBz.gif" width="800px" /></li>
+            </ul>
+          </li>
+          <li>
+            <p>결제 완료 &amp; 구매 내역</p>
+
+            <ul>
+              <li>결제 정보 인증 과정을 거쳐 최종적으로 구매 내역 화면 이동</li>
+            </ul>
+
+            <p><img src="https://i.imgur.com/oF2g0ck.gif" width="800px" /></p>
+          </li>
+        </ol>
+      </li>
+    </ul>
+  </li>
+</ol>
 
 <hr />
-<p><br /></p>
 
 <h4 id="-안드로이드">🤖 안드로이드</h4>
 
@@ -392,105 +472,6 @@ WebSocketHandler를 구현해야 하지만</p>
 <br /></p>
 
 <hr />
-
-<h4 id="-결제-기능-구현">💵 결제 기능 구현</h4>
-
-<ol>
-  <li>경매 입찰 상태 확인
-<br /></li>
-</ol>
-
-<ul>
-  <li>자신이 입찰한 상품들을 전체 목록에서 확인 가능
-<br />
-<br /></li>
-</ul>
-
-<p><img src="https://i.imgur.com/nfIV7WJ.png" width="800px" />
-<br />
-<br /></p>
-
-<ol>
-  <li>최종 낙찰품 구매 가능
-<br /></li>
-</ol>
-
-<ul>
-  <li>경매 종료 시, 자신이 최고 입찰가인 경우 구매 가능
-<br />
-<br /></li>
-</ul>
-
-<p><img src="https://i.imgur.com/BabthED.gif" width="800px" />
-<br />
-<br /></p>
-
-<p><img src="https://i.imgur.com/wmctpyu.png" width="800px" />
-<br />
-<br /></p>
-
-<ol>
-  <li>주문서 화면
-<br /></li>
-</ol>
-
-<ul>
-  <li>고객 기본 정보, 토스 페이먼츠 API 활용하여 주문서 화면 구성
-<br />
-<br /></li>
-</ul>
-
-<p><img src="https://i.imgur.com/cM2ITBz.gif" width="800px" />
-<br /></p>
-
-<ol>
-  <li>결제 완료 &amp; 구매 내역
-<br /></li>
-</ol>
-
-<ul>
-  <li>결제 정보 인증 과정을 거쳐 최종적으로 구매 내역 화면 이동
-<br />
-<br /></li>
-</ul>
-
-<ol>
-  <li>경매 입찰 상태 확인</li>
-</ol>
-
-<ul>
-  <li>자신이 입찰한 상품들을 전체 목록에서 확인 가능
-<img src="https://i.imgur.com/nfIV7WJ.png" width="800px" /></li>
-</ul>
-
-<ol>
-  <li>최종 낙찰품 구매 가능</li>
-</ol>
-
-<ul>
-  <li>경매 종료 시, 자신이 최고 입찰가인 경우 구매 가능
-<img src="https://i.imgur.com/BabthED.gif" width="800px" />
-<img src="https://i.imgur.com/wmctpyu.png" width="800px" /></li>
-</ul>
-
-<ol>
-  <li>주문서 화면</li>
-</ol>
-
-<ul>
-  <li>고객 기본 정보, 토스 페이먼츠 API 활용하여 주문서 화면 구성
-<img src="https://i.imgur.com/cM2ITBz.gif" width="800px" /></li>
-</ul>
-
-<ol>
-  <li>결제 완료 &amp; 구매 내역</li>
-</ol>
-
-<ul>
-  <li>결제 정보 인증 과정을 거쳐 최종적으로 구매 내역 화면 이동</li>
-</ul>
-
-<p><img src="https://i.imgur.com/oF2g0ck.gif" width="800px" /></p>
 
 <style>
   table {
@@ -523,8 +504,6 @@ WebSocketHandler를 구현해야 하지만</p>
 
     
     <div class="next">
-      <a class="post__nav__image" href="/2023/10/01/mnm/" style="background-image: url(/images/main-mnm.png)">
-      </a>
       <h2 class="post__nav__title">
         <a href="/2023/10/01/mnm/">M & M (MBTI & Movie)</a>
         <i class="ion ion-md-arrow-forward"></i>
