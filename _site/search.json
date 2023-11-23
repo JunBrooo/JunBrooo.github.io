@@ -3,7 +3,7 @@
     {
       "title"    : "M &amp; M (MBTI &amp; Movie)",
       "category" : "",
-      "tags"     : "JAVA, JavaScript, and SpringBoot",
+      "tags"     : "JAVA, JavaScript, HTML/CSS, and SpringBoot",
       "url"      : "/2023/10/01/mnm/",
       "date"     : "1 Oct, 2023"
     } ,
@@ -11,9 +11,9 @@
     {
       "title"    : "Noname",
       "category" : "",
-      "tags"     : "JAVA, SpringBoot, and JavaScript",
-      "url"      : "/2023/09/27/noname/",
-      "date"     : "27 Sep, 2023"
+      "tags"     : "JAVA, JavaScript, HTML/CSS, SpringBoot, and WebSocket",
+      "url"      : "/2023/08/01/noname/",
+      "date"     : "1 Aug, 2023"
     } 
   
 ]

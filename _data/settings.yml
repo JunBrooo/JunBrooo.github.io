@@ -1,7 +1,7 @@
 #-------------------------------
 # General Site Settings
 title: JunBrooo
-logo: logo.svg # You can add own logo.
+logo: logo.png # You can add own logo.
 
 
 #-------------------------------
@@ -10,14 +10,14 @@ author:
   name: Cho HyungJun
   image: JunBroo.jpeg
   say-hello: <strong><span style="color:#f6b141;">소통</span>을 즐기는 개발자 | JunBrooo</strong> </br>
-  bio:  고객의 요구를 <strong>듣고</strong>, <strong>기획</strong>하여 프로젝트에 <strong>반영</strong>하는 것을 잘하며, 완성 했을 때의 고객의 반응에 <strong>희열</strong>을 느낍니다.
+  bio:  고객의 요구를 <strong>듣고</strong>, <strong>수용</strong>하여 프로젝트에 <strong>적용</strong>하여 것을 잘하며, 완성 했을 때의 고객의 반응에 <strong>희열</strong>을 느낍니다.
 
 
 #-------------------------------
 # Contact links
-Github: https://github.com/JunBrooo
-instagram: https://instagram.com/ # Add your Instagram handle
-pinterest: https://pinterest.com/ # Add your Pinterest handle
+#Github: https://github.com/JunBrooo
+#instagram: https://instagram.com/ # Add your Instagram handle
+#pinterest: https://pinterest.com/ # Add your Pinterest handle
 
 
 #-------------------------------

@@ -2,7 +2,7 @@
 layout: page
 title: About
 permalink: /about/
-image: 01.jpg
+image: sahara.jpeg
 ---
 
 <div style="color:#f6b141;">
@@ -14,7 +14,7 @@ image: 01.jpg
 팀 프로젝트에서 팀장을 맡아 팀원들을 이끌어간 경험이 있습니다. 기간별 마일스톤을 설정하여 저를 포함한 각 팀원들의 업무를 할당하였으며, 구성원들의 대화를 유도, 의견을 조율하여 방향성 등을 조정하였습니다.<br>
 또한, 모르는 부분에 있어서 팀원과 적극적인 <span style="color: #f6b141"><strong>지식공유</strong></span>를 통해 해결, 낙오되는 사람 없이 프로젝트를 완성하였습니다.<br><br>
 4년동안 건축업에 종사하면서 고객의 의견을 기획에 반영하여 프로젝트를 완성했던 실무경험이 있습니다.<br>
-이를 통해 프로젝트를 진행함에 있어 일련의 과정을 이해하고, 다양한 직무의 사람들과의 커뮤니케이션 역량을 키워왔습니다.<br>
+이를 통해 프로젝트를 진행함에 있어 일련의 과정을 이해하고, 다양한 직무의 사람들과의 <span style="color: #f6b141"><strong>커뮤니케이션</strong></span> 역량을 키워왔습니다.<br>
 코딩만 하는 개발자가 아닌 기획자와 디자이너와 함께 원활한 소통이 가능한 개발자로 성장할 준비가 되어있습니다.<br>
 </div>
 
@@ -27,12 +27,12 @@ image: 01.jpg
     </div>
 <!-------------------------------- NONAME --------------------------------->
     <div style="display: flex; margin-bottom: 20px;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">Noname</h4>
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">Noname</h5>
             <small>Team Leader(4명)</small><br>
             <small>개발기간 1개월</small>
         </div>
-        <div style="float: right; width: 70%;">
+        <div style="float: right; width: 65%; color: #808080;">
             <div>
                 : 무명 작가들을 위한 온라인 갤러리 경매 사이트 구현
             </div>
@@ -70,14 +70,14 @@ image: 01.jpg
     </div>
 <!-------------------------------- M & M --------------------------------->
     <div style="display: flex; margin-bottom: 20px;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">M&M(MBTI & Movie)</h4>
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">M&M(MBTI & Movie)</h5>
             <small>Team Leader(4명)</small><br>
             <small>개발기간 1개월</small>
         </div>
-        <div style="float: right; width: 70%;">
+        <div style="float: right; width: 65%; color: #808080;">
             <div>
-                MZ를 타겟으로한 영화 리뷰 사이트 구현
+                : MZ를 타겟으로한 영화 리뷰 사이트 구현
             </div>
             <div style="display: flex; align-items: flex-start;">
                 <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
@@ -114,12 +114,12 @@ image: 01.jpg
     <div style="color:#f6b141;" >
         <h3><strong><em>Skill</em></strong></h3>
     </div>
-    <div style="display: flex;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">프로그래밍 언어</h4>
+    <div style="display: flex; margin-bottom: 10px;">
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">Language</h5>
         </div>
-        <div style="float: right; width: 70%;">
-            <div style="display: flex; align-items: flex-start;">
+        <div style="float: right; width: 65%;color: #808080;">
+            <div style="display: flex; align-items: flex-start; ">
                 <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
                 <span style="flex: 1; overflow: hidden; white-space: normal;">
                     Java, JavaScript
@@ -127,12 +127,12 @@ image: 01.jpg
             </div>
         </div>
     </div>
-    <div style="display: flex;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">웹 개발 프레임워크</h4>
+    <div style="display: flex; margin-bottom: 10px;">
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">Framework</h5>
         </div>
-        <div style="float: right; width: 70%;">
-            <div style="display: flex; align-items: flex-start;">
+        <div style="float: right; width: 65%;color: #808080;">
+            <div style="display: flex; align-items: flex-start; ">
                 <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
                 <span style="flex: 1; overflow: hidden; white-space: normal;">
                     Spring Boot, Vue.js
@@ -140,11 +140,11 @@ image: 01.jpg
             </div>
         </div>
     </div>
-    <div style="display: flex;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">데이터베이스</h4>
+    <div style="display: flex; margin-bottom: 10px;">
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">Database</h5>
         </div>
-        <div style="float: right; width: 70%;">
+        <div style="float: right; width: 65%;color: #808080;">
             <div style="display: flex; align-items: flex-start;">
                 <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
                 <span style="flex: 1; overflow: hidden; white-space: normal;">
@@ -153,11 +153,11 @@ image: 01.jpg
             </div>
         </div>
     </div>
-    <div style="display: flex;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">협업도구</h4>
+    <div style="display: flex; margin-bottom: 10px;">
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">Tools</h5>
         </div>
-        <div style="float: right; width: 70%;">
+        <div style="float: right; width: 65%;color: #808080;">
             <div style="display: flex; align-items: flex-start;">
                 <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
                 <span style="flex: 1; overflow: hidden; white-space: normal;">
@@ -166,11 +166,11 @@ image: 01.jpg
             </div>
         </div>
     </div>
-    <div style="display: flex;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">클라우드</h4>
+    <div style="display: flex; margin-bottom: 10px;">
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">Cloud</h5>
         </div>
-        <div style="float: right; width: 70%;">
+        <div style="float: right; width: 65%;color: #808080;">
             <div style="display: flex; align-items: flex-start;">
                 <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
                 <span style="flex: 1; overflow: hidden; white-space: normal;">
@@ -190,24 +190,47 @@ image: 01.jpg
     </div>
     <!-- M&M -->
     <div style="display: flex; margin-bottom: 20px;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">(주)에이치오엠 건축사사무소</h4>
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">(주)HOM 건축사사무소</h5>
             <small>팀장</small><br>
             <small>2019.03 - 2023.01</small>
         </div>
-        <div style="float: right; width: 70%;">
-            건축관련 규모 및 법규 검토, 기획, 설계, 시공, 감리 업무 수행  
+        <div style="float: right; width: 65%;color: #808080;">
+            : 건축관련 규모 및 법규 검토, 기획, 설계, 시공, 감리 업무 수행 
+            <div style="display: flex; align-items: flex-start;">
+                <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
+                <span style="flex: 1; overflow: hidden; white-space: normal;">
+                    서천 송림힐링센터 신축
+                </span>
+            </div>
+            <div style="display: flex; align-items: flex-start;">
+                <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
+                <span style="flex: 1; overflow: hidden; white-space: normal;">
+                    서울대공원 동물원 정문광장 신축
+                </span>
+            </div>
+            <div style="display: flex; align-items: flex-start;">
+                <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
+                <span style="flex: 1; overflow: hidden; white-space: normal;">
+                    쌍문역 역사 리모델링 공사 등..
+                </span>
+            </div>
         </div>
     </div>
-    <!-- NONAME -->
     <div style="display: flex; margin-bottom: 20px;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">디엘건축주식회사</h4>
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">(주)DL건설</h5>
             <small>기사</small><br>
             <small>2017.03 - 2017.09</small>
         </div>
-        <div style="float: right; width: 70%;">
-            건설 시공관리 업무 수행 
+        <div style="float: right; width: 65%;color: #808080;">
+            : 건설 시공관리 업무 수행 
+            <div style="display: flex; align-items: flex-start;">
+                <div style="font-size: 1.5em; margin-right: 10px; flex-shrink: 0; align-self: flex-start;">•</div>
+                <span style="flex: 1; overflow: hidden; white-space: normal;">
+                    군포송정 S1BL 아파트건설공사
+                </span>
+            </div>
         </div>
     </div>
 </div>
@@ -220,22 +243,22 @@ image: 01.jpg
     <h3><strong><em>Education</em></strong></h3>
     </div>
     <div style="display: flex; margin-bottom: 20px;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">더조은컴퓨터학원</h4>
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">더조은컴퓨터학원</h5>
             <small>2023.04 - 2023.11</small>
         </div>
-        <div style="float: right; width: 70%;">
+        <div style="float: right; width: 65%;color: #808080;">
             <div>
                 클라우드서비스 활용 스마트 웹앱 개발자 양성과정 
             </div>
         </div>
     </div>
     <div style="display: flex; margin-bottom: 20px;">
-        <div style="float: left; width: 20%;"> 
-            <h4 style="margin: 0px; color:#808080">아주대학교</h4>
+        <div style="float: left; width: 30%;"> 
+            <h5 style="margin: 0px; color:#808080">아주대학교</h5>
             <small>2009.03 - 2017.02</small>
         </div>
-        <div style="float: right; width: 70%;">
+        <div style="float: right; width: 65%;color: #808080;">
             <div>
                 건축학과 건축학전공(5년제)
             </div>
